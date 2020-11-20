@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filters_options">
+        <item>Select Filter...</item>
+        <item>Sepia Filter</item>
+        <item>Toon Filter</item>
+        <item>Sketch Filter</item>
+        <item>Invert Filter</item>
+        <item>Remover Filter</item>
+    </string-array>
+</resources>

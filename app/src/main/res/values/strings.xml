@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fiftygram</string>
+    <string name="btn_choose_photo_text">Choose Photo</string>
+    <string name="btn_apply_sepia_text">Apply Sepia Filter</string>
+    <string name="btn_apply_toon_text">Apply Toon Filter</string>
+    <string name="btn_apply_sketch_text">Apply Sketch Filter</string>
+    <string name="btn_apply_invert_text">Apply Invert Filter</string>
+    <string name="btn_remove_filter_text">Remove filters</string>
+    <string name="btn_save_text">Save Image...</string>
+    <string name="credits_creator">Created by RCK</string>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background_screen"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:backgroundTint="@color/background"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:id="@+id/card_view">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:backgroundTint="@color/background"
+            android:layout_below="@+id/card_view"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/bnt_plus_spinner">
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/btn_choose_photo_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:backgroundTint="@color/app_feel"
+                android:layout_gravity="bottom"
+                android:text="@string/btn_choose_photo_text" />
+
+            <Spinner
+                android:popupBackground="@color/spinner_color"
+                android:id="@+id/filters_spinner"
+                style="@style/spinner_style"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:dropDownWidth="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@+id/bnt_plus_spinner"
+            android:backgroundTint="@color/app_feel"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_save"
+            android:text="@string/btn_save_text"
+            />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_save"
+            android:paddingTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credits_creator"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
