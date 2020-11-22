@@ -7,9 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="app_feel">#8B38B5</color>
-    <color name="app_top">#702597</color>
-    <color name="background">#C8E6FF</color>
-    <color name="background_screen">#DCF0FA</color>
-    <color name="spinner_color">#C8E6FF</color>
+    <color name="app_feel">#DA734C</color>
+    <color name="app_top_appbar">#BC4924</color>
+    <color name="background">#FFFFFF</color>
+    <color name="background_screen">#FFFFFF</color>
+    <color name="spinner_color">#3F51B5</color>
+    <color name="btn_color">#3F51B5</color>
+    <color name="btn_text_colo">#FFFFFF</color>
+    <color name="spinner_text_color">#FFFFFF</color>
+    <color name="credits_text_color">#505050</color>
+    <color name="car_view_color">#CCCCCC</color>
 </resources>

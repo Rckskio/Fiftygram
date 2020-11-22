@@ -3,7 +3,7 @@
     <style name="Theme.Fiftygram" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/app_feel</item>
-        <item name="colorPrimaryVariant">@color/app_top</item>
+        <item name="colorPrimaryVariant">@color/app_top_appbar</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -14,10 +14,23 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="spinner_style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/gradient_spinner</item>
+    <style name="Spinner">
+        <item name="android:backgroundTint">@color/spinner_color</item>
+        <item name="android:foregroundTint">@color/spinner_color</item>
+        <item name="color">@color/spinner_color</item>
+        <item name="backgroundColor">@color/spinner_color</item>
+        <item name="colorOnBackground">@color/spinner_color</item>
+        <item name="android:textColor">@color/spinner_text_color</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:backgroundTint">@color/btn_color</item>
+        <item name="backgroundColor">@color/btn_color</item>
+        <item name="android:textColor">@color/btn_text_colo</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textColor">@color/credits_text_color</item>
     </style>
 
 </resources>
