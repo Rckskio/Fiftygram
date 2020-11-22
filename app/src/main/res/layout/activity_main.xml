@@ -18,14 +18,13 @@
             android:layout_centerHorizontal="true"
             android:layout_width="match_parent"
             android:minHeight="300dp"
-            android:maxHeight="500dp"
-            android:layout_height="match_parent"
+            android:layout_height="300dp"
             android:id="@+id/card_view">
 
             <ImageView
                 android:id="@+id/image_view"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 />
         </androidx.cardview.widget.CardView>
 
