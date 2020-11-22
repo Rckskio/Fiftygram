@@ -18,6 +18,7 @@
             android:layout_centerHorizontal="true"
             android:layout_width="match_parent"
             android:minHeight="300dp"
+            android:maxHeight="500dp"
             android:layout_height="match_parent"
             android:id="@+id/card_view">
 
